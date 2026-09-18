@@ -6,5 +6,4 @@ class Account :
         print("print as it is !!")
 
 acc=Account()
-acc.setmoney()
-acc.get_status()
+#just have to call the two function .....cd
