@@ -1,7 +1,9 @@
-class MAIN:
+from main import main
 
-    def __init__(self):
-        print("hello world!")
+class MAIN(main):
 
+    def _init_(self):
+        self.user()
+        
 
-MAIN()
+app = MAIN()
