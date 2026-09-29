@@ -37,8 +37,3 @@ class state:
             writer = csv.writer(file)
             writer.writerows(all_rows)
 
-
-st = state()
-st.creat_account("Arnab", "1234")
-# st.get_balance()
-# st.set_balance()
